@@ -1,0 +1,138 @@
+#accueil{
+ 
+   background-image: url(img.png) ;
+ background-size: cover;
+  
+   margin: 0px;
+   padding: 130px ;
+   text-align: center;
+  font-weight: bold;
+   font-size: 40px;
+   color: #67f8deaf;
+}
+
+#a-propos h2{
+ text-align: center;
+ font-size: 36px;
+ text-transform: uppercase;
+ background-color: #287265;
+ margin: 0px; 
+   padding: 0px;
+} 
+#a-propos p{
+   background-color: #8d8b8b36;
+   margin: 0px; 
+   padding: 10px;
+   font-weight: bold;
+   text-align: center;
+   font-size: 19px;
+}
+#travail h2{
+   text-align: center;
+   font-size: 36px;
+   text-transform: uppercase;
+   background-color: #287265;
+   margin: 0px; 
+   padding: 0px;
+  
+  }
+  
+  #travail p{
+  
+   margin: 0px; 
+   padding: 10px; 
+   font-weight: bold;
+   text-align: center;
+   background-color: #8d8b8b36;
+   font-size: 19px;
+}
+
+#travail h3{
+   text-align: center;
+   font-size: 22px;
+   text-transform: uppercase;
+   background-color: #287265;
+   margin: 0px; 
+   padding: 0px;
+   border-radius: 50px;
+   
+}
+
+#travail div{
+   text-align: center;
+   background-color:#8d8b8b36;
+   margin: 0px;
+}
+
+#cv h2{
+   text-align: center;
+   font-size: 36px;
+   text-transform: uppercase;
+   background-color: #287265;
+   margin: 0px; 
+   padding: 0px
+  }
+
+  #cv  p{
+   
+   margin: 0px; 
+   padding: 10px; 
+   font-weight: bold;
+   text-align: center;
+   background-color: #8d8b8b36;
+   font-size: 19px;
+}
+
+#cv  h4{
+   text-align: center;
+   font-size: 22px;
+   text-transform: uppercase;
+   background-color: #287265;
+   margin: 0px; 
+   padding: 0px;
+   border-radius: 50px;
+}
+#cv  ul{
+   margin: 0px;
+   background-color: #8d8b8b36;
+   font-size: 19px;
+   
+   list-style-type :square;
+}
+
+#cv  ol{
+   margin: 0px;
+   background-color: #8d8b8b36;
+   font-size: 19px;
+   list-style-type :square;
+}
+
+#contact h2{
+   text-align: center;
+   font-size: 36px;
+   text-transform: uppercase;
+   background-color: #287265;
+   margin: 0px; 
+     padding: 0px;
+  } 
+
+  #contact div{
+   
+   margin: 0px; 
+   padding: 10px; 
+   font-weight: bold;
+   text-align: center;
+   background-color: #8d8b8b36;
+   font-size: 19px;
+}
+
+#contact form{
+   
+   margin: 0px; 
+   padding: 10px; 
+   font-weight: bold;
+   text-align: center;
+   background-color: #8d8b8b36;
+   font-size: 19px;
+  
+}
