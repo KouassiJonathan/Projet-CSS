@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!-- saved from url=(0045)file:///C:/Users/projet1/projet1.html#accueil -->
+<html lang="fr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+    <title class="titre">Mon Portfolio</title>
+    <link rel="stylesheet" href="./Mon Portfolio_files/menu.css">
+    <link rel="stylesheet" href="./Mon Portfolio_files/main.css">
+    <link rel="stylesheet" href="./Mon Portfolio_files/footer.css">
+    <link rel="stylesheet" href="./Mon Portfolio_files/all.min.css">
+</head>
+<body>
+
+    <!-- ma barre de navigation créée  est  ici -->
+    <div class="header">
+        <nav>  
+            <ul class="menu">
+                <li><a href="file:///C:/Users/projet1/projet1.html#accueil">Accueil</a></li>
+                <li><a href="file:///C:/Users/projet1/projet1.html#a-propos">À propos</a></li>
+                <li><a href="file:///C:/Users/projet1/projet1.html#travail">Travail</a></li>
+                <li> <a href="file:///C:/Users/projet1/projet1.html#cv">CV</a></li> 
+                <li><a href="file:///C:/Users/projet1/projet1.html#contact">Contact</a></li>
+            </ul>
+            <p><a href="file:///C:/Users/projet1/projet1.html#cv">Kouassi Jonathan Timothée - Web Developpeur</a></p> 
+        </nav>
+    </div>
+    
+
+    <!-- Les sections de mon portfolio -->
+
+    <main> <!-- La balise <main> marque le contenu principal de la page web  -->
+        <!-- Section Accueil  -->
+        <section id="accueil">
+            
+            
+            <h1>Bienvenue sur mon Portfolio</h1>
+            <p>Developpeur Web Front-End</p>
+        </section>
+
+        <!-- Section À propos -->
+        <section id="a-propos">
+            <h2>À propos</h2>
+            <p>Je suis un développeur web passionné dans la création d'applications web robustes et conviviales. Mon objectif est de transformer des
+               idées complexesen en solutions numériques élégantes et fonctionnelles. Ma curiosité me pousse à explorer constamment les nouvelles technologies 
+                et à perfectionner mes compétences pour rester à la pointe de l'innovation
+            </p>
+           </section>
+
+        <!-- Section Travail -->
+        <section id="travail">
+            <h2>Travail</h2>
+            <p>Cette section présentera mes projets ainsi que mes réalisations .</p>
+            <h3>Petit Ashé</h3>
+            <p>Site Web de commerce électronique pour LITTLE ASHÉ ― une initiative pionnière dans le domaine des poupées pour enfants diversifiées, promouvant l'inclusion, le développement de l'identité et l'empathie à travers des jouets de haute qualité.</p>
+           
+            <div>
+                <img src="./Mon Portfolio_files/pr2.jpg" alt="Description du Projet 2" width="500" height="300">
+                <img src="./Mon Portfolio_files/pr3.jpg" alt="Description du Projet 3" width="500" height="300"> 
+                <img src="./Mon Portfolio_files/pr1.jpg" alt="Description du Projet 1" width="500" height="300"> 
+                <img src="./Mon Portfolio_files/pr4.jpg" alt="Description du Projet 4" width="500" height="300"> 
+           </div>
+            
+
+            <h3>Caroline Seiffert</h3>
+            <p>  
+                 Site web de Caroline Seiffert, artiste visuelle dont les photographies, réalisées avec talent, 
+                 sont des natures mortes d'objets du quotidien trouvés et de leur environnement.
+                 Elles naissent d'une intuition naturelle et d'un regard ouvert.
+            </p>
+
+            <div>
+                <img src="./Mon Portfolio_files/p1.jpg" alt="Description du Projet 1" width="500" height="300"> 
+                <img src="./Mon Portfolio_files/p2.jpg" alt="Description du Projet 2" width="500" height="300">
+                <img src="./Mon Portfolio_files/p3.jpg" alt="Description du Projet 3" width="500" height="300"> 
+            </div>
+          
+            
+
+        </section>
+
+        <!-- Section CV -->
+        <section id="cv">
+            <h2>curriculum vitae</h2>
+            <p>Dans cette section, je résumerai mes expérience professionnelle, mon éducation et mes compétences .
+            Vous pouvez également télécharger mon CV via le lien ci-dessous au format PDF :</p>
+           
+            <p><a href="file:///C:/Users/Public/projet1/Kousssi_Jonathan.pdf" download="">Télécharger mon CV</a></p>
+            <h4>Expérience Professionnelle</h4>
+            <ul>
+                <li><strong>Développeur Full Stack</strong>- chez <strong> Innovate Solutions</strong> ,<em>Janvier 2023 - Présent</em> </li>
+                <li><strong>Développeur Web Junior</strong> - chez <strong>Startup Tech</strong>, <em>Mars 2021 - Décembre 2022</em></li>
+            </ul>
+            <h4>Éducation</h4>
+            <ol>
+                <li><strong>certificat en developpement web full Stack</strong> - <em>Janvier 2025 - Présent</em> </li>
+                <li><strong>BAC+3 en genie logiciel- Hautes Études Commerciales d'Abidjan(HEC)</strong> , <em>Octobre 2024 - Août 2025</em></li>
+            </ol>
+        </section>
+
+        <!-- Section Contact avec un formulaire HTML -->
+        <section id="contact">
+            <h2>Contact</h2>
+            <div><p>N'hésitez pas à me contacter via le formulaire ci-dessous ou directement par email/téléphone .</p></div>
+            <form action="file:///C:/Users/projet1/traitement_formulaire.php" method="post">
+                <!-- La balise <form> est le conteneur parent pour un formulaire HTML.
+                     L'attribut 'action' spécifie l'URL où les données du formulaire seront soumises,
+                     et 'method' indique la méthode HTTP (POST ou GET) utilisée pour la soumission . -->
+
+                <fieldset> 
+                    <!-- <fieldset> identifie un groupe de champs dans le formulaire . -->
+                    <legend>Informations de Contact :</legend> 
+                    <!-- <legend> est la légende/le titre de l'élément <fieldset> . -->
+
+                    <p>
+                        <label for="nom">Nom :</label> 
+                        <!-- <label> est utilisée pour étiqueter un champ du formulaire .
+                             L'attribut 'for' doit correspondre à l'id du champ d'entrée associé. -->
+                        <input type="text" id="nom" name="nom_utilisateur" placeholder="Votre nom" required="" size="40" maxlength="100"> 
+                        <!-- <input /> est utilisé pour prendre des entrées de l'utilisateur .
+                             'type="text"' pour une entrée de texte .
+                             'placeholder' donne des indications à l'utilisateur .
+                             'required' rend le champ obligatoire .
+                             'size' détermine la largeur du champ en nombre de caractères .
+                             'maxlength' spécifie le nombre maximal de caractères autorisés . -->
+                    </p>
+
+                    <p>
+                        <label for="email">Email :</label> 
+                        <input type="email" id="email" name="email_utilisateur" placeholder="votre.email@example.com" required="" size="40"> 
+                        <!-- 'type="email"' est spécifique pour les adresses email. -->
+                    </p>
+
+                    <p>
+                        <label for="message">Message :</label> 
+                        <textarea id="message" name="message_utilisateur" rows="8" cols="50" placeholder="Écrivez votre message ici..." required=""></textarea> 
+                        <!-- <textarea> est utilisée pour les chaînes d'entrée plus longues, permettant un texte multi-phrases .
+                             'rows' et 'cols' déterminent les dimensions de la zone de texte. -->
+                    </p>
+
+                    <p>
+                        <input type="submit" value="Envoyer le message"> 
+                        <!-- Un 'input' avec 'type="submit"' crée un bouton pour soumettre le formulaire . -->
+                    </p>
+                </fieldset>
+            </form>
+
+            
+        </section>
+
+    </main>
+
+    <!-- Un pied de page <footer>  est ajouté ici comme vous pouvez le voir -->
+    <footer class="footer">
+        
+        <div class="contenu">
+
+             <div class="footer-contenu">
+                <h3>contactez moi</h3>
+                <p>LinkedIn : <a href="https://www.linkedin.com/in/jonathan-kouassi-a905b72aa?utm_source=share&amp;utm_campaign=share_via&amp;utm_content=profile&amp;utm_medium=android_app" target="_blank"><i class="fab fa-linkedin"></i>Kouassi Jonathan</a> </p> 
+                <p>Facebook: <a href="https://www.facebook.com/jonathan.kouassi.716" target="_blank"><i class="fab fa-facebook"></i>Kouassi Jonathan</a> </p>
+                <p>Email : <a href="mailto:jtkouassi@gmail.com">jtkouassi@gmail.com</a></p> 
+                <p>Téléphone : <a href="tel:+225 0759014679">+225 07 07 59 01 46 79</a> </p> 
+                <p>GitHub : <a href="https://github.com/KouassiJonathan/" target="_blank">Kouassi Jonathan</a> </p>   
+            </div>
+             
+            <p>© 2025 Mon Portfolio.Tous droits réservés.</p>
+    </div></footer>
+
+
+</body></html>
